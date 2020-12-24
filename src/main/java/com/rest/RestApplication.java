@@ -9,6 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import java.util.Locale;
 import java.util.Random;
 
 @SpringBootApplication
@@ -21,7 +22,7 @@ public class RestApplication {
     @Bean
     CommandLineRunner initDatabase(UserRepository repository) {
         return args -> {
-            Faker faker = new Faker();
+            Faker faker = new Faker(new Locale("ru"));
             for (int i = 1; i < 31; i++) {
                 int id =+ i;
                 String fullName = faker.name().fullName();
