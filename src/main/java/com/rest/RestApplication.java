@@ -22,7 +22,7 @@ public class RestApplication {
     CommandLineRunner initDatabase(UserRepository repository) {
         return args -> {
             Faker faker = new Faker();
-            for (int i = 0; i < 10; i++) {
+            for (int i = 1; i < 31; i++) {
                 int id =+ i;
                 String fullName = faker.name().fullName();
                 String address = faker.address().fullAddress();
