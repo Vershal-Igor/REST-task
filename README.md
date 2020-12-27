@@ -6,7 +6,7 @@
 ### **Используемые технологии:** ### 
 * Spring Boot (Web)  
 * Spring Data JPA (использовался Hibernate в качестве JPA provider)  
-* MySql DB  
+* MySQL DB  
 * JavaFaker lib (для удобства создания данных - генерирует данные о пользователях)  
 
 ### **Инструкция по запуску:** ###
