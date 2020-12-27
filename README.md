@@ -11,7 +11,7 @@
 
 ### **Инструкция по запуску:** ###
 1. Создать MySQL базу данных. Для удобства воспользуйтесь schema.sql скриптом, который создат необходимую БД: запустите этот скрипт в MySQL Workbench.
-2. В src\main\resources\application.properties поменяйте spring.datasource.username=#### и spring.datasource.password=#### на ваше MqSQL имя и пароль соответсвенно.
+2. В src\main\resources\application.properties поменяйте spring.datasource.username=имя и spring.datasource.password=пароль на ваше MqSQL имя и пароль соответсвенно.
 3. Запустить src\main\java\com\rest\RestApplication.java
 
 ### **Результаты:** ### 
